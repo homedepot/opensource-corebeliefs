@@ -1,0 +1,16 @@
+  box: lmmdock/build-environment
+  build:
+    steps:
+      - arjen/hugo-build:
+          version: "0.52"
+          theme: hugoscroll
+          flags: --buildDrafts=true
+
+  deploy:
+    steps:
+      - install-packages:
+          packages: git ssh-client
+      - lukevivier/gh-pages@0.2.4:
+          token: $GIT_TOKEN
+          domain: homedepot.github.io
+          basedir: public

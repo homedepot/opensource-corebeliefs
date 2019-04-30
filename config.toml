@@ -1,0 +1,7 @@
+baseurl = "https://homedepot.github.io"
+languageCode = "en-us"
+title = "The Home Depot Open Source Office"
+theme = "hugoscroll"
+
+[params]
+    description = "Open Source at The Home Depot"

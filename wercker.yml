@@ -5,7 +5,18 @@
           version: "0.52"
           theme: hugoscroll
           flags: --buildDrafts=true
-
+    - script:
+        name: debug
+        code: |
+          echo "Current path:"
+          pwd
+          echo "Current path content:"
+          ls
+          echo "Hardcoded path:"
+          ls /pipeline/source/content
+          echo "source dir: ${WERCKER_SOURCE_DIR}"
+          ls ${WERCKER_SOURCE_DIR}
+          
   deploy:
     steps:
       - install-packages:

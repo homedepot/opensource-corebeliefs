@@ -1,4 +1,4 @@
-baseurl = "https://homedepot.github.io"
+baseurl = "https://homedepot.github.io/opensource-corebeliefs/"
 languageCode = "en-us"
 title = "The Home Depot Open Source Office"
 theme = "hugoscroll"

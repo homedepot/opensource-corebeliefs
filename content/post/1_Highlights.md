@@ -2,6 +2,7 @@
 type = "post"
 weight = 1
 title = "Repo Highlights"
+class="post first"
 +++
 
 

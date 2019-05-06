@@ -1,5 +1,9 @@
 <div class='post-holder'>
-    <article class="{{ .Params.class }}">
+    {{ if .Params.class }}
+        <article class="{{ .Params.class }}">
+    {{ else }}
+        <article class="post">
+    {{ end }}
         <header class="post-header">
             <a id="blog-logo" href="{{ .Site.BaseURL}}">
                 {{ .Site.Title }}

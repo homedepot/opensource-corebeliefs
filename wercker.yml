@@ -26,3 +26,8 @@
           token: $GIT_TOKEN
           domain: homedepot.github.io
           basedir: public
+      - leipert/git-push:
+         gh_oauth: $GIT_TOKEN
+         gh_pages: true
+         gh_pages_domain: homedepot.github.io
+         basedir: public

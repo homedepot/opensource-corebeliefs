@@ -5,6 +5,7 @@ title = "Repo Highlights"
 class="post first"
 +++
 
+[Full list of The Home Depot open source repos](https://github.com/homedepot)
 
 <table>
   <tr>
